@@ -9,7 +9,28 @@
 }
 
 .first_button button {
-    background-color: rgb(255, 0, 0) ;
-    border-radius: 10%;
-    width: 100  px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 10rem;
+    width: 120px;
+}
+
+.second_button button {
+    background-color: #FE52C0;
+    color: white;
+    border-radius: 10rem;
+    width: 200px ;
+    height: 40px;
+}
+
+.third_button button {
+    background-color: #FE52C0;
+    color: white;
+    border-radius: 10rem;
+    width: 300px ;
+    height: 40px;
+}
+
+footer{
+    background-color: #00252E ;
+    color: white;
 }
