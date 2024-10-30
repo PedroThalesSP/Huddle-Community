@@ -17,11 +17,12 @@ body{
 
 
 nav{
-    height: 60vh;
+    
 }
 
 main{
-    background-color: #ff0000;
+    background-color: red;
+    
 }
 
 .first_button{
