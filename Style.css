@@ -23,17 +23,32 @@ nav {
     justify-content: space-between;
     padding: 45px 45px 60px;
 }
+.Content {
+    display: flex;
+    padding: 0px 0px 0px 45px;
+    height: 500px;
+    width: auto; 
+}
 
-.image_two{
+.Conteiner_interior{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+/* .image_two{
     display: flex;
     justify-content: end;
     
 }
 
 .image_two img {
-    width: 820px;
+    width: 720px;
     height: auto;
-}
+    margin: 10px;
+    padding: 10px;
+} */
 
 main{
     background-color: rgb(255, 0, 0);
