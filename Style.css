@@ -14,8 +14,13 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 710px;
+    height: 710px;  
 
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+    margin: 30px 30px 0px 30px;
 }
 
 nav {
@@ -23,21 +28,29 @@ nav {
     justify-content: space-between;
     padding: 45px 45px 60px;
 }
-.Content {
+
+
+.Outer_container {
     display: flex;
-    padding: 0px 0px 0px 45px;
+    justify-content: space-around;
     height: 500px;
     width: auto; 
 }
 
-.Conteiner_interior{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.Inside_container p {
+    font-size: 20px;
+    margin: 30px;
+}
+
+.Inside_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* .image_two{
+.image_two{
     display: flex;
     justify-content: end;
     
@@ -46,9 +59,8 @@ justify-content: center;
 .image_two img {
     width: 720px;
     height: auto;
-    margin: 10px;
-    padding: 10px;
-} */
+
+}
 
 main{
     background-color: rgb(255, 0, 0);
@@ -69,14 +81,13 @@ main{
     border: none;
 }
 
-
-
 .second_button button {
     background-color: #FE52C0;
     color: white;
     border-radius: 10rem;
     width: 200px ;
     height: 40px;
+    border: none;
 }
 
 .third_button button {
@@ -86,7 +97,6 @@ main{
     width: 300px ;
     height: 40px;
 }
-
 
 footer{
     background-color: #00252E ;
