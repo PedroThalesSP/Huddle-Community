@@ -8,17 +8,13 @@
     font-size: 62.5%;
 }
 
-body{
-    background-color: #F0FBFF;
-    background-image: url(/images/bg-hero-desktop.svg);
-    background-position: center top ;
-    background-repeat:no-repeat;
+header{
+    /* background-color: #F0FBFF; */
+    background-color: rgb(20, 149, 235);
+    background-image: url(images/bg-hero-desktop.svg);
+    height: 710px;
 }
 
-
-nav{
-    
-}
 
 main{
     background-color: red;
