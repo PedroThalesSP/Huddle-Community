@@ -32,8 +32,10 @@ nav {
 .Outer_container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     height: 500px;
-    width: auto; 
+    width: auto;
+    margin: 30px;
 }
 
 .Inside_container{
@@ -61,7 +63,7 @@ nav {
 }
 
 main{
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -85,7 +87,7 @@ main{
     background-color: #FE52C0;
     color: white;
     border-radius: 10rem;
-    width: 300px ;
+    width: 250px ;
     height: 60px;
     border: none;
 }
