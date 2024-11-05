@@ -74,10 +74,10 @@ nav {
 }
 
 main{
-    display: flex;
+    /* display: flex;
     align-items: center;
     align-content: space-between;
-    flex-direction: column;
+    flex-direction: column; */
     background-color: rgb(255, 255, 255);
     
     
@@ -174,11 +174,14 @@ main{
     justify-content:center;
     align-items: center;
     flex-direction:column;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 35px;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
     height: 300px;
     width: 1000px;
+    position: absolute;
+    bottom: -1700px;
+    right: 700px;
 }
 
 .section_four h3{
