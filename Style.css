@@ -64,8 +64,50 @@ nav {
 }
 
 main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     
+}
+
+.section_one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: red;
+    height: 300px;
+    width: 1700px;
+}
+
+.section_one img{
+width: 300px;
+}
+
+.section_two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    height: 300px;
+    width: 1700px;
+}
+
+.section_three{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: green;
+    height: 300px;
+    width: 1700px;
+}
+.section_four{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: yellow;
+    height: 300px;
+    width: 1700px;
 }
 
 .first_button{
@@ -106,6 +148,6 @@ footer{
     color: white;
 }
 
-@media (max-width: 752px) {
+/* @media (max-width: 752px) {
 
-} 
+}  */
