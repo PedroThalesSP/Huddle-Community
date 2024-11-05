@@ -24,6 +24,15 @@ h1{
     margin: 30px 30px 30px 0px;
 }
 
+h3{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+p{
+    font-size: 20px;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -76,8 +85,14 @@ main{
     justify-content: space-around;
     align-items: center;
     background-color: red;
-    height: 300px;
-    width: 1700px;
+    border-radius: 35px;
+    height: 500px;
+    width: 1600px;
+
+}
+
+.div_section_one{
+width: 600px;
 }
 
 .section_one img{
@@ -89,8 +104,9 @@ width: 300px;
     justify-content: space-around;
     align-items: center;
     background-color: blue;
-    height: 300px;
-    width: 1700px;
+    border-radius: 35px;
+    height: 500px;
+    width: 1600px;
 }
 
 .section_three{
@@ -98,16 +114,19 @@ width: 300px;
     justify-content: space-around;
     align-items: center;
     background-color: green;
-    height: 300px;
-    width: 1700px;
+    border-radius: 35px;
+    height: 500px;
+    width: 1600px;
 }
+
 .section_four{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: yellow;
-    height: 300px;
-    width: 1700px;
+    border-radius: 35px;
+    height: 500px;
+    width: 1600px;
 }
 
 .first_button{
