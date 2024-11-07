@@ -9,6 +9,8 @@
     font-size: 62.5%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 header{
     background-color: #F0FBFF; 
     background-image: url(images/bg-hero-desktop.svg);
@@ -32,11 +34,24 @@ h3{
 }
 
 p{
+    font-family: "Chivo", sans-serif;
     font-size: 22px;
 }
 
 a{
     color: white;
+}
+
+table{
+    font-family: "Chivo", sans-serif
+}
+
+table td{
+    font-size: 17px;
+}
+
+button:hover{
+    transform: scale(1.05);
 }
 
 nav {
@@ -80,7 +95,6 @@ nav {
 
 main{
     background-color: rgb(255, 255, 255);
-    
     
 }
 
@@ -171,7 +185,7 @@ main{
 
 .section_four{
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     flex-direction:column;
     background-color: rgb(255, 255, 255);
@@ -180,8 +194,18 @@ main{
     height: 300px;
     width: 1000px;
     position: absolute;
-    bottom: -1700px;
-    right: 700px;
+    bottom: -2050px;
+    right: 400px;
+}
+
+.section_four_interno{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
 }
 
 .section_four h3{
@@ -202,6 +226,8 @@ main{
     box-shadow: 0px 1px 4px rgba(0,0,0,0.2);
     border: none;
     font-weight: bold;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
 }
 
 .second_button button {
@@ -211,6 +237,8 @@ main{
     width: 250px ;
     height: 60px;
     border: none;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
 }
 
 .third_button button {
@@ -223,11 +251,13 @@ main{
     box-shadow: 1px 1px 10px rgba(0,0,0,0.4);
     font-weight: bold;
     font-size: 25px;
+    cursor: pointer;
+    transition: transform 300ms ease-in-out;
 }
 
 footer{
     background-color: #2990aa ;
-    height: 40rem;
+    height:36rem;
     color: white;
 
     
@@ -274,14 +304,16 @@ footer{
     width: 50px;
     height: 50px;
 }
+
 .copy{
     display: flex;
     justify-content:right;
     font-size: 15px;
     background-color: #2990AA;
 }
+
 .copy div {
-    margin: 30px;
+    margin: 10px;
 }
 
 .footer_boot{
