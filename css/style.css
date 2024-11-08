@@ -24,7 +24,6 @@ header{
 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     font-size: 50px;
-    margin: 30px 30px 30px 0px;
 }
 
 h3{
@@ -80,22 +79,34 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
+    gap: 30px;
+
+}
+
+.father_div{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin: 20px;
+    flex-direction: row;
+    column-gap: 20px;
 }
 
 .Inside_container p {
     font-size: 20px;
-    margin: 0px 30px 30px 0px;
+    margin: 0px;
 }
 
 .image_two{
     display: flex;
     justify-content: end;
     
+    
 }
 
 .image_two img {
-    width: 720px;
+    width: 700px;
     height: auto;
 
 }
