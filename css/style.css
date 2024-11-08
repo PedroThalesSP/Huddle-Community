@@ -12,14 +12,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 header{
-    background-color: #F0FBFF; 
-    background-image: url(images/bg-hero-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 780px;  
-    margin-bottom: 100px;
-
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 50px 80px;
 }
 
 h1{
@@ -56,16 +55,24 @@ button:hover{
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 3% 3%;
+    
+}
+
+.max-width{
+    max-width: 1920px;
+    margin: 0px auto;
 }
 
 .Outer_container {
     display: flex;
     justify-content: space-around;
-    /* flex-wrap: wrap; */
-    height: 500px;
-    width: auto;
-    margin: 30px;
+    padding: 200px 0px 100px 0px;
+    width: 100%;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: #F0FBFF;
 }
 
 .Inside_container{
@@ -77,14 +84,7 @@ nav {
 
 }
 
-.father_div{
-    display: flex;
-    align-content: space-between;
-    align-items: center;
-    margin: 20px;
-    flex-direction: row;
-    column-gap: 20px;
-}
+
 
 .Inside_container p {
     font-size: 20px;
@@ -106,16 +106,27 @@ nav {
 
 main{
     background-color: rgb(255, 255, 255);
-    
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.box_sections{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 40px;
+    padding:0px 100px;
+    width: 100% ;
+    padding-bottom: 280px;
 }
 
 .main_section{
     display: flex;
     flex-direction:column;
     align-items: center;
-    height: 2000px;
-    
-   
 } 
 
 .section_one{
@@ -126,8 +137,7 @@ main{
     border-radius: 35px;
     box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
     height: 500px;
-    width: 1600px;
-    margin: 40px;
+    width: 100%;
 
 }
 
@@ -151,7 +161,6 @@ main{
     display: flex;
     justify-content: space-around;
     flex-direction:row-reverse;
-    margin: 40px;
 }
 
 .section_two p{
@@ -175,7 +184,7 @@ main{
     border-radius: 35px;
     box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
     height: 500px;
-    width: 1600px;
+    width: 100%;
 }
 
 .section_three{
@@ -186,8 +195,7 @@ main{
     border-radius: 35px;
     box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
     height: 500px;
-    width: 1600px;
-    margin: 40px;
+    width: 100%;
 }
 
 .section_three img{
@@ -203,10 +211,13 @@ main{
     border-radius: 35px;
     box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
     height: 300px;
-    width: 1000px;
+    width: 100%;
+    max-width: 1000px;
     position: absolute;
-    bottom: -2050px;
-    right: 400px;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 
 .section_four_interno{
@@ -267,9 +278,15 @@ main{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
     background-color: #2990aa ;
-    height:36rem;
+    min-height:36rem;
     color: white;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    padding-top: 200px;
 
     
 }
@@ -316,23 +333,20 @@ footer{
     height: 50px;
 }
 
-.copy{
-    display: flex;
-    justify-content:right;
-    font-size: 15px;
-    background-color: #2990AA;
-}
-
-.copy div {
-    margin: 10px;
-}
-
 .footer_boot{
     background-color: #2990AA;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items:center;
     
+}
+
+.footer_boot small{
+    font-size: 15px;
+}
+
+.logo_footer img {
+    filter: brightness(0) invert(1);
 }
 
