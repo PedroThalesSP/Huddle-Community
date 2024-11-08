@@ -75,16 +75,23 @@ nav {
     background-color: #F0FBFF;
 }
 
+.father_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+}
+
 .Inside_container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px;
     gap: 30px;
 
 }
-
-
 
 .Inside_container p {
     font-size: 20px;
@@ -94,7 +101,6 @@ nav {
 .image_two{
     display: flex;
     justify-content: end;
-    
     
 }
 
@@ -139,6 +145,10 @@ main{
     height: 500px;
     width: 100%;
 
+}
+
+.father_main img {
+    margin: 20px;
 }
 
 .div_section_one{
