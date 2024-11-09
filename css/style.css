@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +10,6 @@
 :root{
     font-size: 62.5%;
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 header{
     position: absolute;
@@ -287,13 +287,12 @@ main{
     transition: transform 300ms ease-in-out;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: column;
     background-color: #2990aa ;
     min-height:36rem;
     color: white;
-    display: flex;
     gap: 20px;
     padding: 20px;
     padding-top: 200px;
