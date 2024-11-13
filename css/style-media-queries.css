@@ -1,6 +1,7 @@
 @media screen and (max-width: 1380px){
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
    
+
     .father_main{
         display: flex;
         align-items: center;
@@ -8,10 +9,12 @@
         flex-direction: column;
     }
 
+
 @media screen and (max-width: 1276px){
     @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
-        h1{
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+       
+    h1{
             text-align: center;
             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
         }
@@ -26,7 +29,7 @@
         p{
             margin: 30px 0px;
             text-align:center;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+            font-family: "Chivo", serif;
         }
 
         .div_section_one{
@@ -40,10 +43,12 @@
         .div_section_two{
             width: 100%;
             margin: 10px 0px;
+            padding: 20px;
         }
 
         .div_section_three{
             width: 100%;
+            padding: 20px;
         }
 
         .section_conteiner{
@@ -68,6 +73,7 @@
             background-color: rgb(255, 255, 255);
             height: 100%;
             width: 100%;
+            padding: 20px;
         }
 
         .section_three{
@@ -76,6 +82,7 @@
             background-color: rgb(255, 255, 255);
             height: 100%;
             width: 100%;
+            padding: 20px;
         }
 
         .section_three{
@@ -103,6 +110,7 @@
 
         .section_one {
             max-width: auto;
+            padding: 20px;
         }
 
         .first_button {
@@ -118,6 +126,7 @@
         .image_two img {
             width: 100%;
             margin: 10px 0px;
+            padding: 20px;
 
         }
 
@@ -141,7 +150,7 @@
         }
 
         .section_conteiner{
-            padding: 0 ;
+            padding: 0px 15px ;
         }
 
         .section_four_interno {
@@ -174,6 +183,7 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
+            background-color: #00252E;
         }
 
         .logo_footer{
@@ -215,6 +225,8 @@
             right: 0;
             margin: 0 auto;
         }
+
+
     
     }
 
