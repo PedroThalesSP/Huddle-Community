@@ -1,4 +1,5 @@
 @media screen and (max-width: 1380px){
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
    
     .father_main{
         display: flex;
@@ -8,20 +9,24 @@
     }
 
 @media screen and (max-width: 1276px){
+    @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
         h1{
             text-align: center;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
         }
 
         h3{
             text-align: center;
             margin:0
+            
 
         }
         
         p{
             margin: 30px 0px;
             text-align:center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
 
         .div_section_one{
@@ -46,6 +51,7 @@
             align-items: center;
             justify-content: center;
             background-color: rgb(255, 255, 255);
+            margin: 40px 0px;
         }
 
         .section_one{
@@ -92,6 +98,7 @@
         nav{
             display: flex;
             align-items: center;
+            min-width: 100%;
         }
 
         .section_one {
@@ -158,6 +165,7 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            width: 100%;
           
         }
 
@@ -175,7 +183,8 @@
         }
 
         td{
-            padding: 50px;
+            text-align: center;
+          padding: 50px;
         }
 
         header{
@@ -201,7 +210,7 @@
             width: 100%;
             max-width: 1000px;
             position: absolute;
-            bottom: -350px;
+            bottom: -335px;
             left: 0;
             right: 0;
             margin: 0 auto;
