@@ -1,7 +1,6 @@
 @media screen and (max-width: 1380px){
 @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
    
-
     .father_main{
         display: flex;
         align-items: center;
@@ -9,6 +8,7 @@
         flex-direction: column;
     }
 
+}
 
 @media screen and (max-width: 1276px){
     @import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
@@ -162,6 +162,11 @@
             
         }
 
+        .first_button button{
+            width: 130px;
+            height: 40px;
+        }
+
         .section_four_interno button{
             width: 100%;
             padding: 0px 30px;
@@ -226,24 +231,9 @@
             margin: 0 auto;
         }
 
+        .navegação img{
+            width: 100%;
+        }
 
     
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}

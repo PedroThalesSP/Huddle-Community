@@ -136,10 +136,6 @@ main{
     align-items: center;
 } 
 
-.navegação{
-    
-}
-
 .section_one{
     display: flex;
     justify-content: space-around;
