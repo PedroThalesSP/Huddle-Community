@@ -9,23 +9,32 @@
 
 @media screen and (max-width: 1276px){
 
+        h1{
+            text-align: center;
+        }
+
         h3{
+            text-align: center;
             margin:0
 
         }
-
-        main{
-            
+        
+        p{
+            margin: 30px 0px;
+            text-align:center;
         }
 
         .div_section_one{
             align-items: center;
             justify-content: center;
             width: 100%;
+            margin: 10px 0px;
+            
         }
 
         .div_section_two{
             width: 100%;
+            margin: 10px 0px;
         }
 
         .div_section_three{
@@ -36,7 +45,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: rgb(255, 0, 0);
+            background-color: rgb(255, 255, 255);
         }
 
         .section_one{
@@ -77,6 +86,7 @@
             justify-content: center;
             flex-direction: column;
             flex-wrap: wrap;
+            margin: 150px;
         }
 
         nav{
@@ -100,19 +110,23 @@
 
         .image_two img {
             width: 100%;
+            margin: 10px 0px;
 
         }
 
         .section_one img{
             width: 100%;
+            margin: 10px 0px;
         }
 
         .section_two img{
             width: 100%;
+            margin: 10px 0px;
         }
 
         .section_three img{
             width: 100%;
+            margin: 10px 0px;
         }
 
         .tabela{
@@ -124,12 +138,18 @@
         }
 
         .section_four_interno {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             width: 100%;
+
             
         }
 
         .section_four_interno button{
             width: 100%;
+            padding: 0px 30px;
+            margin: 10px 0px;
         }
 
         .main_footer table{
@@ -164,6 +184,29 @@
             display: flex;
             align-items: center;
         }
+
+        .Inside_container{
+            margin: 0
+        }
+
+        .section_four{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            background-color: rgb(255, 255, 255);
+            border-radius: 35px;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.2);
+            height: 300px;
+            width: 100%;
+            max-width: 1000px;
+            position: absolute;
+            bottom: -350px;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+        }
+    
     }
 
 
