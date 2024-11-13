@@ -147,7 +147,7 @@
 
         .tabela{
             width: 10px;
-            padding: 50px 0px 50px 50px;
+            padding: 50px 0px 50px 2px;
         }
 
         .section_conteiner{
@@ -237,4 +237,22 @@
         }
 
     
+    }
+
+ @media screen and (max-width: 500px){
+
+    .section_four{
+        height: 180px;
+        bottom: -200px;
+    }
+
+    .section_four h3{
+        font-size: 30px;
+    }
+
+    .section_four button{
+        height: 49px;
+        font-size: 15px;
+    }
+
     }
