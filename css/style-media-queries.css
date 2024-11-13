@@ -9,6 +9,29 @@
 
 @media screen and (max-width: 1276px){
 
+        h3{
+            margin:0
+
+        }
+
+        main{
+            
+        }
+
+        .div_section_one{
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+
+        .div_section_two{
+            width: 100%;
+        }
+
+        .div_section_three{
+            width: 100%;
+        }
+
         .section_conteiner{
             display: flex;
             align-items: center;
@@ -40,17 +63,107 @@
             width: 100%;
         }
 
+        .section_three{
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 255, 255);
+            height: 100%;
+            width: 100%;
+        }
+
         .main_footer{
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-direction: column;
             flex-wrap: wrap;
         }
 
-        /* .table_two{
+        nav{
             display: flex;
             align-items: center;
-        } */
+        }
+
+        .section_one {
+            max-width: auto;
+        }
+
+        .first_button {
+            width: 100%;
+        }
+
+        .image_two{
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        .image_two img {
+            width: 100%;
+
+        }
+
+        .section_one img{
+            width: 100%;
+        }
+
+        .section_two img{
+            width: 100%;
+        }
+
+        .section_three img{
+            width: 100%;
+        }
+
+        .tabela{
+            width: 10px;
+        }
+
+        .section_conteiner{
+            padding: 0 ;
+        }
+
+        .section_four_interno {
+            width: 100%;
+            
+        }
+
+        .section_four_interno button{
+            width: 100%;
+        }
+
+        .main_footer table{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+          
+        }
+
+        footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .logo_footer{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        td{
+            padding: 50px;
+        }
+
+        header{
+            padding: 20px;
+            margin:  40px;
+            display: flex;
+            align-items: center;
+        }
     }
 
 
